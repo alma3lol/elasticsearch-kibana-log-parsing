@@ -1,0 +1,11 @@
+[Unit]
+Description=Filebeat service
+
+[Service]
+User=root
+WorkingDirectory=$PWD
+ExecStart=$EXE
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

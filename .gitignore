@@ -1,3 +1,5 @@
-filebeat*
-heartbeat*
-metricbeat*
+filebeat-*
+heartbeat-*
+metricbeat-*
+elastic-agent-*
+*.zip
